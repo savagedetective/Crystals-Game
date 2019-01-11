@@ -1,4 +1,32 @@
 .top-of-page {
     padding: 2rem 2rem;
-    background-color: aqua
+    background-color:00ADBE;
+    margin-bottom: 0;
+}
+
+.info-and-stats {
+    padding:10px;
+}
+#number-to-match {
+    background-color: grey;
+    text-align:center;
+}
+
+#random-number, #score-card {
+    font-size: 80px;
+}
+
+.wins-and-losses {
+    text-align: center;
+    font-size: 40px;
+    background-color: 58B3BF;
+}
+
+.gems-and-score {
+    padding:10px;
+}
+
+#score-card {
+    background-color: grey;
+    text-align:center;
 }
