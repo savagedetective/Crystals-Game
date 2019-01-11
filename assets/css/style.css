@@ -1,3 +1,7 @@
+body {
+    background-color: A3C8D9;
+}
+
 .top-of-page {
     padding: 2rem 2rem;
     background-color:00ADBE;
@@ -7,12 +11,12 @@
 .info-and-stats {
     padding:10px;
 }
-#number-to-match {
-    background-color: grey;
+#number-to-match, #score-card {
+    background-color:C0EBFF;
     text-align:center;
 }
 
-#random-number, #score-card {
+#random-number, #current-score {
     font-size: 80px;
 }
 
@@ -20,13 +24,19 @@
     text-align: center;
     font-size: 40px;
     background-color: 58B3BF;
+    margin: 0 10px;
 }
 
 .gems-and-score {
     padding:10px;
 }
 
-#score-card {
-    background-color: grey;
-    text-align:center;
+
+img {
+    width: 25%;
+    float:left;
+}
+
+img:hover {
+    cursor: pointer;
 }
